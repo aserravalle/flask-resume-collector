@@ -1,4 +1,0 @@
-Flask
-WTForms
-requests
-pyrebase
