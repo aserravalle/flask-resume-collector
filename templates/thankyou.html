@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block body %}
+{% include "navbar.html" %}
+
+<!-- Section 1 -->
+<section class="hero is-primary is-bold is-large">
+  <div class="hero-body">
+      <p class="title is-2">Thank you for your application, {{ name }} </p>
+      <p class="subtitle is-4"><i>Next steps </i></p>
+      <p class="subtitle is-5">&#x2022 We will review your application</p>
+      <p class="subtitle is-5">&#x2022 Search for businesses that suit your abilities</p>
+      <p class="subtitle is-5">&#x2022 Contact you when we find a match </p>
+  </div>
+</section>
+
+{% include "footer.html" %}
+{% endblock %}
+{% block scripts %}
+<script src="../static/js/scripts.js"></script>
+{% endblock %}
